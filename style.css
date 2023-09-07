@@ -1,9 +1,10 @@
-h1, h2, p, h3 {
+body {
     text-align: center;
 }
 
 /* This part is stolen from Michael Howell's code with help from Mr. Fast*/
 ol, ul {
+    text-align: left;
     display: table;
     margin: auto;
     width: 10%;
