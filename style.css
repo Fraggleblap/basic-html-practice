@@ -1,0 +1,46 @@
+h1, h2, p, h3 {
+    text-align: center;
+}
+
+/* This part is stolen from Michael Howell's code with help from Mr. Fast*/
+ol, ul {
+    display: table;
+    margin: auto;
+    width: 25%;
+}
+
+/* I kinda modified some code from Michael that he copied from someone else then modified, but then he copied it back */
+.fontchange {
+    animation: fontchange 3s ease-in-out 0s infinite, fontcchange 3s ease-in-out 0s infinite;
+}
+
+
+@keyframes fontchange {
+    from {
+        font-size: 30px;
+    }
+    50% {
+        font-size: 40px;
+    }
+    100% {
+        font-size: 30px;
+    }
+}
+
+@keyframes fontcchange {
+    from {
+        color: #99ffcc;
+    }
+    20% {
+        color: #0066ff;
+    }
+    50% {
+        color: #cc00cc;
+    }
+    75% {
+        color: #ccff3f;
+    }
+    100% {
+        color: #99ffcc;
+    }
+}
